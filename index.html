@@ -8,10 +8,13 @@
 			name="description"
 			content="514 128 821-კონდიციონერის მონტაჟი/დემონტაჟ,შეკეთება/დიაგნოსტიკას, მილების წინასწარი ჩალაგება კედელში."
 		/>
-		<meta name="keywords" content="კონდიციონერის ხელოსანი, კონდიციონერის შეკეთება, კონდიციონერის მონტაჟი, კონდიციონერის წმენდა,
+		<meta
+			name="keywords"
+			content="კონდიციონერის ხელოსანი, კონდიციონერის შეკეთება, კონდიციონერის მონტაჟი, კონდიციონერის წმენდა,
 			კონდიციონერის დიაგნოსტიკა, ფრეონის ჩასხმა, ფრეონის დატუმბვა, კონდიციონერის ხელოსანი გამოძახებით, კონდიციონერების შეკეთება, კონდიციონერი,
 			kondicioneris xelosani, kondicioneris sheketeba, kondicioneris montaji, kondicioneris cmenda, kondicioneris demontaji, freonis chasxma, freonis datumbva,
-			kondicionerebis sheketeba, kondicioneri">
+			kondicionerebis sheketeba, kondicioneri"
+		/>
 		<meta name="robots" content="index, follow" />
 		<meta name="theme-color" content="#029cf9" />
 		<link rel="canonical" href="https://hvacelite.ge/" />
@@ -53,7 +56,11 @@
 		<link rel="stylesheet" href="./css/pages/home.css" />
 		<link rel="icon" href="./img/favicon.svg" type="image/svg+xml" />
 		<link rel="manifest" href="./img/site.webmanifest" />
-		<link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png">
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="./img/apple-touch-icon.png"
+		/>
 
 		<script type="application/ld+json">
 			{
@@ -83,11 +90,17 @@
 			}
 		</script>
 		<!-- Google Tag Manager -->
-		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-				new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-				j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-				'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-				})(window,document,'script','dataLayer','GTM-WNDSCJRH');
+		<script>
+			;(function (w, d, s, l, i) {
+				w[l] = w[l] || []
+				w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' })
+				var f = d.getElementsByTagName(s)[0],
+					j = d.createElement(s),
+					dl = l != 'dataLayer' ? '&l=' + l : ''
+				j.async = true
+				j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl
+				f.parentNode.insertBefore(j, f)
+			})(window, document, 'script', 'dataLayer', 'GTM-WNDSCJRH')
 		</script>
 		<!-- End Google Tag Manager -->
 	</head>
@@ -96,9 +109,10 @@
 			<ul class="container-header">
 				<li>
 					<a class="container-logo" href="./">
-						<img src="./img/logo_hvac_elite.svg" 
-							 alt="HVAC Elite - კონდიციონერის ხელოსანი"
-							/>
+						<img
+							src="./img/logo_hvac_elite.svg"
+							alt="HVAC Elite - კონდიციონერის ხელოსანი"
+						/>
 					</a>
 				</li>
 				<li class="container-list">
@@ -224,6 +238,7 @@
 							დაგვიკავშირდით
 						</a>
 					</li>
+					<li><a href="./en.html">🏳️ EN</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -238,7 +253,6 @@
 						გადაწყვეტა. <br />
 						+995 514 128 821
 					</p>
-				</div>
 				</div>
 				<div class="home-hero-md">
 					<img
@@ -306,8 +320,8 @@
 						<span class="card-icon">🔍</span>
 						<h4>დიაგნოსტიკა</h4>
 						<p>
-							კონდიციონერის დიაგნოსტიკა და სისტემების სრული შემოწმება,
-							პრობლემის სწრაფად და ზუსტად აღმოჩენისთვის.
+							კონდიციონერის დიაგნოსტიკა და სისტემების სრული შემოწმება, პრობლემის
+							სწრაფად და ზუსტად აღმოჩენისთვის.
 						</p>
 					</article>
 					<article class="home-hero-card">
@@ -577,13 +591,13 @@
 			const duration = 2000
 
 			const startAnimation = (entries, observer) => {
-				entries.forEach(entry => {
+				entries.forEach((entry) => {
 					if (entry.isIntersecting) {
 						const counter = entry.target
 						const target = +counter.getAttribute('data-target')
 						let startTime = null
 
-						const updateCount = currentTime => {
+						const updateCount = (currentTime) => {
 							if (!startTime) startTime = currentTime
 							const progress = currentTime - startTime
 
@@ -612,15 +626,19 @@
 				threshold: 0.5,
 			})
 
-			counters.forEach(counter => {
+			counters.forEach((counter) => {
 				observer.observe(counter)
 			})
 		</script>
 		<script src="./js/script.js" defer></script>
 		<!-- Google Tag Manager (noscript) -->
 		<noscript>
-			<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WNDSCJRH"
-				height="0" width="0" style="display:none;visibility:hidden">
+			<iframe
+				src="https://www.googletagmanager.com/ns.html?id=GTM-WNDSCJRH"
+				height="0"
+				width="0"
+				style="display: none; visibility: hidden"
+			>
 			</iframe>
 		</noscript>
 		<!-- End Google Tag Manager (noscript) -->
