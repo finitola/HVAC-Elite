@@ -23,7 +23,6 @@ export default function Services(t) {
 	return {
 		title: t.services_title,
 		desc: t.services_desc,
-		keywords: t.hvacelite_keywords,
 		schema: servicesSchema,
 		content: `
 <h1 class="page-title scale-up-top">${t.services_h1}</h1>
