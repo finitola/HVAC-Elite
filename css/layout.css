@@ -370,6 +370,10 @@
 }
 
 @media (max-width: 768px) {
+    .site-footer {
+        margin-bottom: 7rem;
+    }
+
     .mobile-fab-container {
         display: flex;
         flex-direction: column;
