@@ -29,7 +29,6 @@ export default function About(t) {
 	return {
 		title: t.about_title,
 		desc: t.about_desc,
-		keywords: t.hvacelite_keywords,
 		schema: aboutSchema,
 		content: `
 <h1 class="page-title">${t.about_h1}</h1>
