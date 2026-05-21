@@ -189,7 +189,4 @@ export default {
 	contact_title: 'კონტაქტი | კონდიციონერის ხელოსანი - HVAC Elite',
 	contact_desc:
 		'დაგვირეკეთ 514 12 88 21 - თუ გჭირდებათ კონდიცირების სისტემების ტექნიკური მომსახურება - მონტაჟი / დემონტაჟი, დიაგნოსტიკა, შეკეთება, მაცივარაგენტის (ფრეონი) დამატება, შიდა და გარე ბლოკების გაწმენდა, ელექტრო დაზიანების შეკეთება',
-	// KeyWords
-	hvacelite_keywords:
-		'კონდიციონერის ხელოსანი, კონდიციონერის შეკეთება, კონდიციონერის მონტაჟი, კონდიციონერის წმენდა, კონდიციონერის დიაგნოსტიკა, ფრეონის ჩასხმა, ფრეონის დატუმბვა, კონდიციონერის ხელოსანი გამოძახებით, კონდიციონერების შეკეთება, კონდიციონერი,ჩილერი, ვეერვე,ვეერეფი,აჰუ,რუფტოპი,სპლისტ,სისტემა,მულტისპლიტ,სპლიტი,მულტისპლიტი,არხული,კოლონური,დასადგამი, კასეტური,ფანკოილი,kondicioneris xelosani, kondicioneris sheketeba, kondicioneris montaji, kondicioneris cmenda, kondicioneris demontaji, freonis chasxma, freonis datumbva,kondicionerebis sheketeba, kondicioneri, Chiller, VRV, VRF, VRV/VRF, RoofTop, AHU, Split, MultiSplit, Fan Coil, Cassette, Ducted, Floor Standing, Cabinet, Tower AC, Fan Coil Unit, Air Handling Unit, Packaged Unit, RTU',
 }
