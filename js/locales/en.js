@@ -188,7 +188,4 @@ export default {
 	contact_title: 'Contact | Air Conditioner Technician - HVAC Elite',
 	contact_desc:
 		'Call us at 514 12 88 21 - if you need technical maintenance for air conditioning systems - installation / dismantling, diagnostics, repair, adding refrigerant (Freon), cleaning indoor and outdoor units, repairing electrical damage',
-	// KeyWords
-	hvacelite_keywords:
-		'air conditioner technician, air conditioner repair, air conditioner installation, air conditioner cleaning, air conditioner diagnostics, freon filling, freon pumping, air conditioner technician on call, air conditioner repairs, air conditioner, chiller, vrv, vrf, ahu, rooftop, split system, multisplit, split, multi-split, ducted, floor standing, cassette, fancoil, kondicioneris xelosani, kondicioneris sheketeba, kondicioneris montaji, kondicioneris cmenda, kondicioneris demontaji, freonis chasxma, freonis datumbva, kondicionerebis sheketeba, kondicioneri, Chiller, VRV, VRF, VRV/VRF, RoofTop, AHU, Split, MultiSplit, Fan Coil, Cassette, Ducted, Floor Standing, Cabinet, Tower AC, Fan Coil Unit, Air Handling Unit, Packaged Unit, RTU',
 }
