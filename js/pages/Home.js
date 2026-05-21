@@ -81,7 +81,6 @@ export default function Home(t) {
 	return {
 		title: t.home_title,
 		desc: t.home_desc,
-		keywords: t.hvacelite_keywords,
 		schema: combinedSchema,
 		content: `
 <h1 class="page-title">${t.home_h1}</h1>
