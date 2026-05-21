@@ -21,6 +21,7 @@ main {
 }
 
 .page-call-btn {
+    width: max-content;
     display: block;
     margin: auto;
     padding: var(--space-4);
