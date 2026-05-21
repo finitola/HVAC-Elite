@@ -56,7 +56,6 @@ export default function Blog(t, lang) {
 	return {
 		title: t.blog_title,
 		desc: t.blog_desc,
-		keywords: t.hvacelite_keywords,
 		schema: blogSchema,
 		content: `
         <h1 class="page-title">${t.blog_h1}</h1>
