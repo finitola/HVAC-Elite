@@ -29,7 +29,6 @@ export default function Terms(t) {
 	return {
 		title: t.terms_title,
 		desc: t.terms_desc,
-		keywords: t.hvacelite_keywords,
 		schema: termsSchema,
 		content: `
 <h1 class="page-title">${t.terms_h1}</h1>
