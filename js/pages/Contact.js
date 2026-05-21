@@ -29,7 +29,6 @@ export default function Contact(t) {
 	return {
 		title: t.contact_title,
 		desc: t.contact_desc,
-		keywords: t.hvacelite_keywords,
 		schema: contactSchema,
 		content: `
 <h1 class="page-title">${t.contact_h1}</h1>
