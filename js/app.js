@@ -48,10 +48,6 @@ const renderApp = async () => {
 		.querySelector('meta[name="description"]')
 		?.setAttribute('content', pageData.desc || '')
 
-	document
-		.querySelector('meta[name="keywords"]')
-		?.setAttribute('content', pageData.keywords || '')
-
 	const currentLocale = store.lang === 'ka' ? 'ka_GE' : 'en_US'
 	document
 		.querySelector('meta[property="og:locale"]')
