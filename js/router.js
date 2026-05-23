@@ -9,6 +9,9 @@ import Privacy from './pages/Privacy.js'
 import NotFound from './pages/NotFound.js'
 
 export async function matchRoute(path, t, lang) {
+	if (path.length > 1 && path.endsWith('/')) {
+		path = path.slice(0, -1);
+	}
 	if (path === '/' || path === '') {
 		return Home(t)
 	}

@@ -56,7 +56,7 @@ export default function BlogPost(t, lang, slug) {
 				<div class="divider"></div>
 				<div class="card-excerpt">${postContent}</div>
 				<div class="post-card-tags">
-                <a href="/blog" class="post-tag" data-link> ${t.back_to_blog}</a>
+				<a href="/${lang}/blog" class="post-tag" data-link> ${t.back_to_blog}</a>
 				</div>
 			</div>
         `,

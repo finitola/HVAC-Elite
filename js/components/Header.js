@@ -112,22 +112,22 @@ export default function Header(t, currentLang, currentPath) {
 				<a href="/${currentLang}" data-link class="header-nav-links">🏠 ${t.nav_home}</a>
 			</li>
 			<li>
-				<a href="/${currentLang}/services" data-link class="header-nav-links"
+				<a href="/${currentLang}/services/" data-link class="header-nav-links"
 					>🛠️ ${t.nav_services}</a
 				>
 			</li>
 			<li>
-				<a href="/${currentLang}/blog" data-link class="header-nav-links"
+				<a href="/${currentLang}/blog/" data-link class="header-nav-links"
 					>📝 ${t.nav_blog}</a
 				>
 			</li>
 			<li>
-				<a href="/${currentLang}/about" data-link class="header-nav-links"
+				<a href="/${currentLang}/about/" data-link class="header-nav-links"
 					>👨‍🔧 ${t.nav_about}</a
 				>
 			</li>
 			<li>
-				<a href="/${currentLang}/contact" data-link class="header-nav-links"
+				<a href="/${currentLang}/contact/" data-link class="header-nav-links"
 					>✉️ ${t.nav_contact}</a
 				>
 			</li>

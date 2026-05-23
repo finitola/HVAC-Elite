@@ -21,7 +21,7 @@ export default function Blog(t, lang) {
 				<div class="divider"></div>
 				<p class="card-excerpt">${data.excerpt}</p>
 				<div class="card-tags">
-                <a href="/blog/${blog.slug}" class="tag" data-link>${t.read_more}</a>
+				<a href="/${lang}/blog/${blog.slug}" class="tag" data-link>${t.read_more}</a>
 				</div>
 			</div>
 		</article>	

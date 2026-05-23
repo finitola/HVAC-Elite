@@ -1,6 +1,6 @@
 export const meta = {
 	id: '3',
-	slug: 'inverteruliTeqnologiaVsOnOff',
+	slug: 'inverteruli-teqnologia-vs-on-off',
 	image:
 		'../../images/blogposts/invertoruli-vs-on-off-kondicirebis-sistema.webp',
 	ka: {

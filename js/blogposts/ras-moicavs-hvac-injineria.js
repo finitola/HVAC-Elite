@@ -1,6 +1,6 @@
 export const meta = {
 	id: '2',
-	slug: 'rasMoicavsHvacInjineria',
+	slug: 'ras-moicavs-hvac-injineria',
 	image: '../../images/blogposts/ras-moicavs-hvac-injineria.webp',
 	ka: {
 		title: 'რას მოიცავს HVAC ინჟინერია ?',

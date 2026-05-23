@@ -165,8 +165,8 @@ export default function Footer(t, currentLang) {
 	<div class="footer-column">
 		<h4 class="footer-title">${t.footer_links_title}</h4>
 			<ul aria-label="${t.nav_footer}">
-				<li><a href="/${currentLang}/services" data-link>${t.nav_services}</a></li>
-				<li><a href="/${currentLang}/contact" data-link>${t.nav_contact}</a></li>
+				<li><a href="/${currentLang}/services/" data-link>${t.nav_services}</a></li>
+				<li><a href="/${currentLang}/contact/" data-link>${t.nav_contact}</a></li>
 				<li>
 					<a
 						href="https://finitola.github.io/HVAC-R/#hvacrlicense"
@@ -183,8 +183,8 @@ export default function Footer(t, currentLang) {
 						>${t.nav_calc}
 					</a>
 				</li>
-				<li><a href="/${currentLang}/privacy" data-link>${t.nav_privacy}</a></li>
-				<li><a href="/${currentLang}/terms" data-link>${t.nav_terms}</a></li>
+				<li><a href="/${currentLang}/privacy/" data-link>${t.nav_privacy}</a></li>
+				<li><a href="/${currentLang}/terms/" data-link>${t.nav_terms}</a></li>
 			</ul>
 	</div>
 	<div class="footer-column">

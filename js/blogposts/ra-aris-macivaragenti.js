@@ -1,6 +1,6 @@
 export const meta = {
 	id: '1',
-	slug: 'raArisMacivaragenti',
+	slug: 'ra-aris-macivaragenti',
 	image: '../../images/blogposts/ra-aris-macivaragenti-freoni.webp',
 	ka: {
 		title: 'რა არის მაცივარაგენტი (ფრეონი) ?',
