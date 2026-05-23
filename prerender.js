@@ -15,6 +15,8 @@ const distDir = path.join(__dirname, 'dist');
 // Define static routes
 const routes = [
     { url: '/', lang: 'ka', cleanPath: '/' },
+    { url: '/ka', lang: 'ka', cleanPath: '/' },
+    { url: '/en', lang: 'en', cleanPath: '/' },
     { url: '/ka/services', lang: 'ka', cleanPath: '/services' },
     { url: '/en/services', lang: 'en', cleanPath: '/services' },
     { url: '/ka/blog', lang: 'ka', cleanPath: '/blog' },
