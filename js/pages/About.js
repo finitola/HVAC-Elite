@@ -38,6 +38,8 @@ export default function About(t) {
 		<img
 			src="/images/hvac_elite_troubleshooter-about-us.webp"
 			alt="${t.about_title}"
+			width="512"
+			height="512"
 		/>
 	</div>
 	<div class="about-us-column">

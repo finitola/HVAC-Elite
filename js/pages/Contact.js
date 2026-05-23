@@ -93,7 +93,7 @@ export default function Contact(t) {
 		</div>
 	</div>
 	<div class="contact-column">
-		<img src="/images/Tbilisi-Map.webp" alt="${t.contact_p}" loading="lazy" />
+		<img src="/images/Tbilisi-Map.webp" alt="${t.contact_p}" loading="lazy" width="837" height="579" />
 	</div>
 </section>
 `,

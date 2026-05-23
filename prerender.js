@@ -67,7 +67,7 @@ async function build() {
         if (pageData) {
             // Render basic components for hydration
             const headerHtml = Header(t, route.lang, route.cleanPath);
-            const footerHtml = Footer(t);
+            const footerHtml = Footer(t, route.lang);
             const mainHtml = pageData.content;
 
             html = html.replace('<header id="app-header"></header>', `<header id="app-header">${headerHtml}</header>`);
@@ -130,7 +130,7 @@ async function build() {
     let html404 = template;
     const pageData404 = await matchRoute('/not-found', ka, 'ka');
     html404 = html404.replace('<header id="app-header"></header>', `<header id="app-header">${Header(ka, 'ka', '/')}</header>`);
-    html404 = html404.replace('<footer id="app-footer"></footer>', `<footer id="app-footer">${Footer(ka)}</footer>`);
+    html404 = html404.replace('<footer id="app-footer"></footer>', `<footer id="app-footer">${Footer(ka, 'ka')}</footer>`);
     html404 = html404.replace('<main id="app-main"></main>', `<main id="app-main">${pageData404.content}</main>`);
     html404 = html404.replace('<title></title>', `<title>${pageData404.title}</title>`);
     fs.writeFileSync(path.join(distDir, '404.html'), html404);

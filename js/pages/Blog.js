@@ -11,6 +11,8 @@ export default function Blog(t, lang) {
 				<img
 					src="${blog.image}"
 					alt="${data.title}"
+					width="800"
+					height="600"
 				/>
 			</div>
 			<div class="card-content">

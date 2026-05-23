@@ -46,6 +46,8 @@ export default function BlogPost(t, lang, slug) {
 				<img
 					src="${blog.image}"
 					alt="${data.title}"
+					width="800"
+					height="600"
 				/>
 			</div>
 			<div class="post-card-content">
