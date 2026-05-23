@@ -188,4 +188,10 @@ export default {
 	contact_title: 'Contact | Air Conditioner Technician - HVAC Elite',
 	contact_desc:
 		'Call us at 514 12 88 21 - if you need technical maintenance for air conditioning systems - installation / dismantling, diagnostics, repair, adding refrigerant (Freon), cleaning indoor and outdoor units, repairing electrical damage',
+	terms_title: 'Terms of Service',
+	terms_desc:
+		'By using HVACElite.ge, you agree to the terms and conditions outlined below.',
+	privacy_title: 'Privacy Policy',
+	privacy_desc:
+		'We respect your personal information and are committed to protecting it.',
 }
