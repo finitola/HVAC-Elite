@@ -108,7 +108,7 @@
 }
 
 .header-btn-call svg {
-    transition: transform var(--transition-very-fast);
+    transition: transform var(--transition-fast);
     flex-shrink: 0;
 }
 
@@ -166,7 +166,7 @@
     gap: var(--space-2);
     font-weight: var(--fw-normal);
     font-size: var(--fs-base);
-    color: var(--color-text-mute);
+    color: var(--color-text-muted);
 }
 
 .footer-column li a:hover {
@@ -211,7 +211,7 @@
     text-align: center;
     font-weight: var(--fw-medium);
     font-size: var(--fs-sm);
-    color: var(--color-text-mute);
+    color: var(--color-text-muted);
 }
 
 .footer-bottom a:hover {
