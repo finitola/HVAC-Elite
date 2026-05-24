@@ -154,7 +154,6 @@ main {
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow-base);
     text-align: center;
-    min-width: var(--space-card);
     transition: all var(--transition-normal);
     cursor: pointer;
 }
@@ -392,7 +391,7 @@ main {
     height: var(--space-1);
     width: var(--space-10);
     background-color: var(--color-primary);
-    margin-bottom: var(--space-5);
+    margin-bottom: var(--space-4);
 }
 
 .card-excerpt {
@@ -490,7 +489,7 @@ main {
 .card-excerpt p {
     font-size: var(--fs-base);
     color: var(--color-text-muted);
-    line-height: var(--lh-md);
+    line-height: var(--lh-base);
 }
 
 .post-card-tags {
@@ -546,7 +545,7 @@ main {
     margin-bottom: var(--space-4);
     font-size: var(--fs-base);
     font-weight: var(--fw-bold);
-    line-height: var(--lh-md);
+    line-height: var(--lh-base);
 }
 
 .about-us-column h3 {
@@ -715,7 +714,7 @@ main {
 .police-pages p {
     font-size: var(--fs-base);
     color: var(--color-text-main);
-    line-height: var(--lh-md);
+    line-height: var(--lh-base);
 }
 
 /* Responsive layout */
@@ -754,7 +753,6 @@ main {
 
     .home-hero-stat-card {
         width: 100%;
-        max-width: var(--space-img);
     }
 
     .blog-card {
