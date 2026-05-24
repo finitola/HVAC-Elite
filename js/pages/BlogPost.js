@@ -41,7 +41,7 @@ export default function BlogPost(t, lang, slug) {
 		image: blog.image,
 		schema: articleSchema,
 		content: `
-        <article class="blogPost-card">
+        <div class="blogPost-card">
 			<div class="post-card-image-wrapper">
 				<img
 					src="${blog.image}"
@@ -59,6 +59,7 @@ export default function BlogPost(t, lang, slug) {
 				<a href="/${lang}/blog" class="post-tag" data-link> ${t.back_to_blog}</a>
 				</div>
 			</div>
+		</div>
         `,
 	}
 }
