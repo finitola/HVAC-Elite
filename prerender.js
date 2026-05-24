@@ -136,7 +136,7 @@ async function build() {
     fs.writeFileSync(path.join(distDir, '404.html'), html404);
     console.log(`Created: /404.html`);
 
-    console.log('✅ SSG Prerender complete! The "dist" folder is ready to upload.');
+    console.log('✅✅✅ SSG Prerender complete! The "dist" folder is ready to upload. ✅✅✅');
 }
 
 build().catch(console.error);
