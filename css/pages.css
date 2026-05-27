@@ -476,7 +476,7 @@ main {
 }
 
 .card-excerpt li::before {
-    content: "-";
+    content: "—";
     color: var(--color-success);
     margin-right: var(--space-2);
 }
