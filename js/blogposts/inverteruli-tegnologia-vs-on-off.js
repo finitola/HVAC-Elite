@@ -2,7 +2,7 @@ export const meta = {
 	id: '3',
 	slug: 'inverteruli-teqnologia-vs-on-off',
 	image:
-		'../../images/blogposts/invertoruli-vs-on-off-kondicirebis-sistema.webp',
+		'https://hvacelite.ge/images/blogposts/invertoruli-vs-on-off-kondicirebis-sistema.webp',
 	ka: {
 		title: 'AC Inverter VS AC ON/OFF',
 		subtitle:
