@@ -1,7 +1,7 @@
 export const meta = {
 	id: '2',
 	slug: 'ras-moicavs-hvac-injineria',
-	image: '../../images/blogposts/ras-moicavs-hvac-injineria.webp',
+	image: 'https://hvacelite.ge/images/blogposts/ras-moicavs-hvac-injineria.webp',
 	ka: {
 		title: 'რას მოიცავს HVAC ინჟინერია ?',
 		subtitle: 'HVAC სისტემების კლასიფიკაცია მათი დანიშნულების მიხედვით',
