@@ -672,7 +672,14 @@ main {
 .contact-btn-wa:hover {
     transform: translateY(calc(-1 * var(--space-1)));
 }
+.contact-btn-tg {
+    background-color: var(--color-primary);
+    color: var(--color-text-light);
+}
 
+.contact-btn-tg:hover {
+    transform: translateY(calc(-1 * var(--space-1)));
+}
 /*Police Pages*/
 .police-pages {
     margin: var(--space-8) auto;
