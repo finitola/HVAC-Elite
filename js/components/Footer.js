@@ -199,10 +199,6 @@ export default function Footer(t, currentLang) {
 
 	<div class="footer-bottom">
 		<a href="/">&copy; ${currentYear} ${t.footer_text}</a>
-	    <!-- TOP.GE ASYNC COUNTER CODE -->
-        <div id="top-ge-counter-container" data-site-id="118773"></div>
-        <script async src="//counter.top.ge/counter.js"></script>
-        <!-- / END OF TOP.GE COUNTER CODE -->	
 	</div>
 </footer>
 <!-- Float Button Up -->
