@@ -31,9 +31,9 @@ export default {
 	// Home Page
 	home_h1: 'Air Conditioning Systems Maintenance',
 	home_p:
-		'Resolution of all technical issues related to air conditioning systems.',
-	home_stat_text1: 'Completed Installations',
-	home_stat_text2: 'Technical Maintenance',
+    'For any air conditioning technical issue, call a professional air conditioner technician',
+	home_stat_text1: 'Air Conditioner Installation',
+	home_stat_text2: 'Air Conditioner Repair',
 	home_stat_text3: 'Satisfied Customers',
 	board_title: 'Technical service for any model of air conditioning systems',
 	board_description:
