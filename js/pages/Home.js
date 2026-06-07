@@ -85,7 +85,7 @@ export default function Home(t) {
 		content: `
 <h1 class="page-title">${t.home_h1}</h1>
 <p class="page-description">${t.home_p}</p>
-<a href="tel:+995514128821" class="page-call-btn"> 514 12 88 21</a>
+<a href="tel:+995514128821" class="page-call-btn" style="font-size:var(--fs-xl)">+995 514 12 88 21</a>
 <img
 	src="/images/hvac_elite_troubleshooter.webp"
 	alt="${t.home_h1}"
