@@ -46,7 +46,7 @@ async function build() {
     }
     
     // Copy static assets
-    const assets = ['css', 'js', 'images', 'robots.txt', 'sitemap.xml', 'rss.xml', '_headers', 'wrangler.jsonc'];
+    const assets = ['css', 'js', 'images', 'robots.txt', 'llms.txt', sitemap.xml', 'rss.xml', '_headers', 'wrangler.jsonc'];
     assets.forEach(asset => {
         const srcPath = path.join(__dirname, asset);
         const destPath = path.join(distDir, asset);
