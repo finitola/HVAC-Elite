@@ -11,6 +11,8 @@ export default function Blog(t, lang) {
 				<img
 					src="${blog.image}"
 					alt="${data.title}"
+					width="800"
+					height="600"
 				/>
 			</div>
 			<div class="card-content">
@@ -19,7 +21,7 @@ export default function Blog(t, lang) {
 				<div class="divider"></div>
 				<p class="card-excerpt">${data.excerpt}</p>
 				<div class="card-tags">
-                <a href="/blog/${blog.slug}" class="tag" data-link>${t.read_more}</a>
+				<a href="/${lang}/blog/${blog.slug}" class="tag" data-link>${t.read_more}</a>
 				</div>
 			</div>
 		</article>	
@@ -56,7 +58,6 @@ export default function Blog(t, lang) {
 	return {
 		title: t.blog_title,
 		desc: t.blog_desc,
-		keywords: t.hvacelite_keywords,
 		schema: blogSchema,
 		content: `
         <h1 class="page-title">${t.blog_h1}</h1>

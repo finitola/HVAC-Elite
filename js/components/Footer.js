@@ -1,13 +1,15 @@
-export default function Footer(t) {
+export default function Footer(t, currentLang) {
 	const currentYear = new Date().getFullYear()
 	return `
 <footer class="site-footer">
 	<div class="footer-main">
 		<div class="footer-column">
-		<a href="/" data-link
+		<a href="/${currentLang}" data-link
 			><img
 				src="/images/logo_hvac_elite.svg"
 				alt="კონდიციონერის ხელოსანი - HVAC Elite"
+				width="250"
+				height="82"
 		/></a>
 		<ul>
 			<li>
@@ -163,8 +165,8 @@ export default function Footer(t) {
 	<div class="footer-column">
 		<h4 class="footer-title">${t.footer_links_title}</h4>
 			<ul aria-label="${t.nav_footer}">
-				<li><a href="/services" data-link>${t.nav_services}</a></li>
-				<li><a href="/contact" data-link>${t.nav_contact}</a></li>
+				<li><a href="/${currentLang}/services/" data-link>${t.nav_services}</a></li>
+				<li><a href="/${currentLang}/contact/" data-link>${t.nav_contact}</a></li>
 				<li>
 					<a
 						href="https://finitola.github.io/HVAC-R/#hvacrlicense"
@@ -181,8 +183,8 @@ export default function Footer(t) {
 						>${t.nav_calc}
 					</a>
 				</li>
-				<li><a href="/privacy" data-link>${t.nav_privacy}</a></li>
-				<li><a href="/terms" data-link>${t.nav_terms}</a></li>
+				<li><a href="/${currentLang}/privacy/" data-link>${t.nav_privacy}</a></li>
+				<li><a href="/${currentLang}/terms/" data-link>${t.nav_terms}</a></li>
 			</ul>
 	</div>
 	<div class="footer-column">
@@ -195,7 +197,9 @@ export default function Footer(t) {
 		</ul>
 	</div>
 
-	<div class="footer-bottom"><a href="/">&copy; ${currentYear} ${t.footer_text}</a></div>
+	<div class="footer-bottom">
+		<a href="/">&copy; ${currentYear} ${t.footer_text}</a>
+	</div>
 </footer>
 <!-- Float Button Up -->
 <button id="scrollToTopBtn" class="scroll-to-top" aria-label="Scroll to top">

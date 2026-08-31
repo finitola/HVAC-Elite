@@ -29,7 +29,6 @@ export default function Privacy(t) {
 	return {
 		title: t.privacy_title,
 		desc: t.privacy_desc,
-		keywords: t.hvacelite_keywords,
 		schema: privacySchema,
 		content: `
 <h1 class="page-title">${t.privacy_h1}</h1>

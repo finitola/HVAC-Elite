@@ -34,7 +34,7 @@ const renderApp = async () => {
 		store.path,
 	)
 
-	document.getElementById('app-footer').innerHTML = Footer(t)
+	document.getElementById('app-footer').innerHTML = Footer(t, store.lang)
 
 	const pageData = await matchRoute(store.path, t, store.lang)
 
@@ -47,10 +47,6 @@ const renderApp = async () => {
 	document
 		.querySelector('meta[name="description"]')
 		?.setAttribute('content', pageData.desc || '')
-
-	document
-		.querySelector('meta[name="keywords"]')
-		?.setAttribute('content', pageData.keywords || '')
 
 	const currentLocale = store.lang === 'ka' ? 'ka_GE' : 'en_US'
 	document
@@ -200,8 +196,12 @@ document.addEventListener('DOMContentLoaded', () => {
 		========================= */
 		if (e.target.matches('[data-link]')) {
 			e.preventDefault()
-			const targetPath = e.target.getAttribute('href') // მოდის მაგ: /blog
+			let targetPath = e.target.getAttribute('href') // მოდის მაგ: /blog
 
+			const langPrefix = `/${store.lang}`
+			if (targetPath.startsWith(langPrefix)) {
+				targetPath = targetPath.replace(langPrefix, '') || '/'
+			}
 			if (store.path !== targetPath) {
 				// ბრაუზერის URL-ში ვუწერთ ენას (მაგ: /ka/blog)
 				const finalPath = `/${store.lang}${targetPath === '/' ? '' : targetPath}`

@@ -81,57 +81,58 @@ export default function Home(t) {
 	return {
 		title: t.home_title,
 		desc: t.home_desc,
-		keywords: t.hvacelite_keywords,
 		schema: combinedSchema,
 		content: `
 <h1 class="page-title">${t.home_h1}</h1>
 <p class="page-description">${t.home_p}</p>
-<a href="tel:+995514128821" class="page-call-btn"> 514 12 88 21</a>
+<a href="tel:+995514128821" class="page-call-btn" style="font-size:var(--fs-2xl)">+995 514 12 88 21</a>
 <img
 	src="/images/hvac_elite_troubleshooter.webp"
 	alt="${t.home_h1}"
+	width="320"
+	height="320"
 	class="home-img"
 />
 
 
-<h3 class="home-service-cards-title">${t.service_cards_title}</h3>
+<h2 class="home-service-cards-title">${t.service_cards_title}</h2>
 <div class="home-service-cards">
 	<article class="home-service-card">
 		<span class="card-icon">🌬️</span>
-		<h4>${t.service_card1}</h4>
+		<h3>${t.service_card1}</h3>
 	</article>
 	<article class="home-service-card">
 		<span class="card-icon">🔧</span>
-		<h4>${t.service_card2}</h4>
+		<h3>${t.service_card2}</h3>
 	</article>
 	<article class="home-service-card">
 		<span class="card-icon">📦</span>
-		<h4>${t.service_card3}</h4>
+		<h3>${t.service_card3}</h3>
 	</article>
 	<article class="home-service-card">
 		<span class="card-icon">🔍</span>
-		<h4>${t.service_card4}</h4>
+		<h3>${t.service_card4}</h3>
 	</article>
 	<article class="home-service-card">
 		<span class="card-icon">⚙️</span>
-		<h4>${t.service_card5}</h4>
+		<h3>${t.service_card5}</h3>
 	</article>
 	<article class="home-service-card">
 		<span class="card-icon">🧩</span>
-		<h4>${t.service_card6}</h4>
+		<h3>${t.service_card6}</h3>
 	</article>
 	<article class="home-service-card">
 		<span class="card-icon">🚿</span>
-		<h4>${t.service_card7}</h4>
+		<h3>${t.service_card7}</h3>
 	</article>
 	<article class="home-service-card">
 		<span class="card-icon">🧪</span>
-		<h4>${t.service_card8}</h4>
+		<h3>${t.service_card8}</h3>
 	</article>
 </div>
 <div class="home-hero-md-board">
 	<div class="home-hero-md-board-left">
-		<h2>${t.board_title}</h2>
+		<h4>${t.board_title}</h4>
 		<p>${t.board_description}</p>
 	</div>
 	<div class="home-hero-md-board-right">

@@ -29,7 +29,6 @@ export default function About(t) {
 	return {
 		title: t.about_title,
 		desc: t.about_desc,
-		keywords: t.hvacelite_keywords,
 		schema: aboutSchema,
 		content: `
 <h1 class="page-title">${t.about_h1}</h1>
@@ -39,6 +38,8 @@ export default function About(t) {
 		<img
 			src="/images/hvac_elite_troubleshooter-about-us.webp"
 			alt="${t.about_title}"
+			width="512"
+			height="512"
 		/>
 	</div>
 	<div class="about-us-column">

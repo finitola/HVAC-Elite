@@ -55,27 +55,27 @@
 
   <!-- ბლოგ პოსტი 1: რა არის მაცივარაგენტი -->
   <url>
-    <loc>https://hvacelite.ge/ka/blog/raArisMacivaragenti</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://hvacelite.ge/en/blog/raArisMacivaragenti" />
-    <xhtml:link rel="alternate" hreflang="ka" href="https://hvacelite.ge/ka/blog/raArisMacivaragenti" />
+    <loc>https://hvacelite.ge/ka/blog/ra-aris-macivaragenti</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hvacelite.ge/en/blog/ra-aris-macivaragenti" />
+    <xhtml:link rel="alternate" hreflang="ka" href="https://hvacelite.ge/ka/blog/ra-aris-macivaragenti" />
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- ბლოგ პოსტი 2: რას მოიცავს HVAC ინჟინერია -->
   <url>
-    <loc>https://hvacelite.ge/ka/blog/rasMoicavsHvacInjineria</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://hvacelite.ge/en/blog/rasMoicavsHvacInjineria" />
-    <xhtml:link rel="alternate" hreflang="ka" href="https://hvacelite.ge/ka/blog/rasMoicavsHvacInjineria" />
+    <loc>https://hvacelite.ge/ka/blog/ras-moicavs-hvac-injineria</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hvacelite.ge/en/blog/ras-moicavs-hvac-injineria" />
+    <xhtml:link rel="alternate" hreflang="ka" href="https://hvacelite.ge/ka/blog/ras-moicavs-hvac-injineria" />
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- ბლოგ პოსტი 3: ინვერტორული vs On/Off -->
   <url>
-    <loc>https://hvacelite.ge/ka/blog/inverteruliTegnologiaVsOnOff</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://hvacelite.ge/en/blog/inverteruliTegnologiaVsOnOff" />
-    <xhtml:link rel="alternate" hreflang="ka" href="https://hvacelite.ge/ka/blog/inverteruliTegnologiaVsOnOff" />
+    <loc>https://hvacelite.ge/ka/blog/inverteruli-teqnologia-vs-on-off</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hvacelite.ge/en/blog/inverteruli-teqnologia-vs-on-off" />
+    <xhtml:link rel="alternate" hreflang="ka" href="https://hvacelite.ge/ka/blog/inverteruli-teqnologia-vs-on-off" />
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

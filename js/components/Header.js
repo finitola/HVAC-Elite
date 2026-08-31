@@ -3,10 +3,12 @@ export default function Header(t, currentLang, currentPath) {
 <header class="site-header">
 	<ul class="top-header">
 		<li>
-			<a class="top-header-logo" href="/">
+			<a class="top-header-logo" href="/${currentLang}">
 				<img
 					src="/images/logo_hvac_elite.svg"
 					alt="HVAC Elite - კონდიციონერის ხელოსანი"
+					width="250"
+					height="82"
 				/>
 			</a>
 		</li>
@@ -107,25 +109,25 @@ export default function Header(t, currentLang, currentPath) {
 		</div>
 		<ul id="nav-links" aria-label="${t.nav_main}">
 			<li>
-				<a href="/" data-link class="header-nav-links">🏠 ${t.nav_home}</a>
+				<a href="/${currentLang}" data-link class="header-nav-links">🏠 ${t.nav_home}</a>
 			</li>
 			<li>
-				<a href="/services" data-link class="header-nav-links"
+				<a href="/${currentLang}/services/" data-link class="header-nav-links"
 					>🛠️ ${t.nav_services}</a
 				>
 			</li>
 			<li>
-				<a href="/blog" data-link class="header-nav-links"
+				<a href="/${currentLang}/blog/" data-link class="header-nav-links"
 					>📝 ${t.nav_blog}</a
 				>
 			</li>
 			<li>
-				<a href="/about" data-link class="header-nav-links"
+				<a href="/${currentLang}/about/" data-link class="header-nav-links"
 					>👨‍🔧 ${t.nav_about}</a
 				>
 			</li>
 			<li>
-				<a href="/contact" data-link class="header-nav-links"
+				<a href="/${currentLang}/contact/" data-link class="header-nav-links"
 					>✉️ ${t.nav_contact}</a
 				>
 			</li>

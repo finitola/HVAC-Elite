@@ -41,11 +41,13 @@ export default function BlogPost(t, lang, slug) {
 		image: blog.image,
 		schema: articleSchema,
 		content: `
-        <article class="blogPost-card">
+        <div class="blogPost-card">
 			<div class="post-card-image-wrapper">
 				<img
 					src="${blog.image}"
 					alt="${data.title}"
+					width="800"
+					height="600"
 				/>
 			</div>
 			<div class="post-card-content">
@@ -54,9 +56,10 @@ export default function BlogPost(t, lang, slug) {
 				<div class="divider"></div>
 				<div class="card-excerpt">${postContent}</div>
 				<div class="post-card-tags">
-                <a href="/blog" class="post-tag" data-link> ${t.back_to_blog}</a>
+				<a href="/${lang}/blog" class="post-tag" data-link> ${t.back_to_blog}</a>
 				</div>
 			</div>
+		</div>
         `,
 	}
 }

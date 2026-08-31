@@ -1,7 +1,7 @@
 export const meta = {
 	id: '1',
-	slug: 'raArisMacivaragenti',
-	image: '../../images/blogposts/ra-aris-macivaragenti-freoni.webp',
+	slug: 'ra-aris-macivaragenti',
+	image: 'https://hvacelite.ge/images/blogposts/ra-aris-macivaragenti-freoni.webp',
 	ka: {
 		title: 'რა არის მაცივარაგენტი (ფრეონი) ?',
 		subtitle: 'მაცივარაგენტი (ფრეონი) - უხილავი გმირი კონდიცირების სისტემაში',

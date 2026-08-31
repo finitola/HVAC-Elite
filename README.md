@@ -41,7 +41,7 @@ Since this project is built with Vanilla JavaScript, HTML, and CSS, it requires 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/hvac-elite.git
+   git clone https://github.com/finitola/HVAC-Elite.git
    ```
 2. **Run a local server:**
    You can use any local web server to run the project. For example, using VS Code Live Server, or Python:

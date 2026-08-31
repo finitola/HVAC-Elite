@@ -29,7 +29,6 @@ export default function Contact(t) {
 	return {
 		title: t.contact_title,
 		desc: t.contact_desc,
-		keywords: t.hvacelite_keywords,
 		schema: contactSchema,
 		content: `
 <h1 class="page-title">${t.contact_h1}</h1>
@@ -91,10 +90,31 @@ export default function Contact(t) {
 				</svg>
 				WhatsApp
 			</a>
+			<a
+				class="contact-btn contact-btn-tg"
+				href="https://t.me/+995514128821"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				<svg
+					aria-hidden="true"
+					xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 24 24"
+					fill="currentColor"
+					width="24"
+					height="24"
+					style="flex-shrink: 0"
+				>
+					<path
+						d="M21.944 4.517a1 1 0 0 0-1.104-.163L2.84 11.66a1 1 0 0 0 .104 1.865l4.79 1.597 1.598 4.79a1 1 0 0 0 .796.672 1 1 0 0 0 .953-.41L22.108 5.62a1 1 0 0 0-.164-1.103zM9.39 14.61l-.96 3.2-.99-2.97 8.46-6.68-6.51 6.45z"
+					/>
+				</svg>
+				Telegram
+			</a>
 		</div>
 	</div>
 	<div class="contact-column">
-		<img src="/images/Tbilisi-Map.webp" alt="${t.contact_p}" loading="lazy" />
+		<img src="/images/Tbilisi-Map.webp" alt="${t.contact_p}" loading="lazy" width="837" height="579" />
 	</div>
 </section>
 `,

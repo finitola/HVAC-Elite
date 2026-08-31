@@ -21,6 +21,7 @@ main {
 }
 
 .page-call-btn {
+    width: max-content;
     display: block;
     margin: auto;
     padding: var(--space-4);
@@ -72,7 +73,7 @@ main {
 }
 
 
-.home-service-card h4 {
+.home-service-card h3 {
     font-size: var(--fs-xl);
     margin-bottom: var(--space-2);
 }
@@ -106,7 +107,7 @@ main {
     gap: var(--space-2);
 }
 
-.home-hero-md-board-left h2 {
+.home-hero-md-board-left h4 {
     font-size: var(--fs-2xl);
     color: var(--color-text-light);
 }
@@ -153,7 +154,6 @@ main {
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow-base);
     text-align: center;
-    min-width: var(--space-card);
     transition: all var(--transition-normal);
     cursor: pointer;
 }
@@ -391,7 +391,7 @@ main {
     height: var(--space-1);
     width: var(--space-10);
     background-color: var(--color-primary);
-    margin-bottom: var(--space-5);
+    margin-bottom: var(--space-4);
 }
 
 .card-excerpt {
@@ -476,7 +476,7 @@ main {
 }
 
 .card-excerpt li::before {
-    content: "⮚";
+    content: "—";
     color: var(--color-success);
     margin-right: var(--space-2);
 }
@@ -489,7 +489,7 @@ main {
 .card-excerpt p {
     font-size: var(--fs-base);
     color: var(--color-text-muted);
-    line-height: var(--lh-md);
+    line-height: var(--lh-base);
 }
 
 .post-card-tags {
@@ -545,7 +545,7 @@ main {
     margin-bottom: var(--space-4);
     font-size: var(--fs-base);
     font-weight: var(--fw-bold);
-    line-height: var(--lh-md);
+    line-height: var(--lh-base);
 }
 
 .about-us-column h3 {
@@ -672,7 +672,14 @@ main {
 .contact-btn-wa:hover {
     transform: translateY(calc(-1 * var(--space-1)));
 }
+.contact-btn-tg {
+    background-color: var(--color-primary);
+    color: var(--color-text-light);
+}
 
+.contact-btn-tg:hover {
+    transform: translateY(calc(-1 * var(--space-1)));
+}
 /*Police Pages*/
 .police-pages {
     margin: var(--space-8) auto;
@@ -714,7 +721,7 @@ main {
 .police-pages p {
     font-size: var(--fs-base);
     color: var(--color-text-main);
-    line-height: var(--lh-md);
+    line-height: var(--lh-base);
 }
 
 /* Responsive layout */
@@ -753,7 +760,6 @@ main {
 
     .home-hero-stat-card {
         width: 100%;
-        max-width: var(--space-img);
     }
 
     .blog-card {
