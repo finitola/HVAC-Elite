@@ -143,6 +143,7 @@ export default {
 	contact_h1: 'Contact Information',
 	contact_p:
 		'HVAC Elite - If you need air conditioner maintenance, contact us!',
+	map_alt: 'Air conditioner technician in Tbilisi',
 	contact_h2: 'Call us if:',
 	contact_li1:
 		'You plan to buy an air conditioner and cannot decide which one to choose',

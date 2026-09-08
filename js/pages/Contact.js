@@ -1,16 +1,16 @@
-export default function Contact(t) {
+export default function Contact(t, lang) {
 	const contactSchema = {
 		'@context': 'https://schema.org',
 		'@type': 'LocalBusiness',
 		name: 'Contact - HVAC Elite',
-		url: 'https://hvacelite.ge/contact',
+		url: `https://hvacelite.ge/${lang}/contact`,
 		telephone: '+995514128821',
 		image: 'https://hvacelite.ge/images/logo_hvac_elite.svg',
 		priceRange: '100₾-5000₾',
 		areaServed: 'Tbilisi, Georgia',
 		address: {
 			'@type': 'PostalAddress',
-			streetAddress: 'Bakhtrioni St.',
+			streetAddress: 'Tbilisi, Saburtalo',
 			addressLocality: 'Tbilisi',
 			postalCode: '0160',
 			addressCountry: 'GE',
@@ -114,7 +114,7 @@ export default function Contact(t) {
 		</div>
 	</div>
 	<div class="contact-column">
-		<img src="/images/Tbilisi-Map.webp" alt="${t.contact_p}" loading="lazy" width="837" height="579" />
+		<img src="/images/Tbilisi-Map.webp" alt="${t.map_alt}" loading="lazy" width="837" height="579" />
 	</div>
 </section>
 `,

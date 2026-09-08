@@ -13,10 +13,10 @@ export async function matchRoute(path, t, lang) {
 		path = path.slice(0, -1);
 	}
 	if (path === '/' || path === '') {
-		return Home(t)
+		return Home(t, lang)
 	}
 	if (path === '/services') {
-		return Services(t)
+		return Services(t, lang)
 	}
 	if (path === '/blog') {
 		return BlogList(t, lang)
@@ -28,16 +28,16 @@ export async function matchRoute(path, t, lang) {
 		}
 	}
 	if (path === '/about') {
-		return About(t)
+		return About(t, lang)
 	}
 	if (path === '/contact') {
-		return Contact(t)
+		return Contact(t, lang)
 	}
 	if (path === '/terms') {
-		return Terms(t)
+		return Terms(t, lang)
 	}
 	if (path === '/privacy') {
-		return Privacy(t)
+		return Privacy(t, lang)
 	}
 	// 404
 	return NotFound(t, lang)

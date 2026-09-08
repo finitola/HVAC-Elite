@@ -83,13 +83,20 @@ async function build() {
                 html = html.replace(/<meta\s+name="keywords"\s+content="[^"]*"\s*\/>/, `<meta name="keywords" content="${pageData.keywords}" />`);
             }
             
+            // Hreflang Tags
+            const cleanPathStr = route.cleanPath === '/' ? '' : route.cleanPath;
+            const kaUrl = `https://hvacelite.ge/ka${cleanPathStr}`;
+            const enUrl = `https://hvacelite.ge/en${cleanPathStr}`;
+            const hreflangTags = `<link rel="alternate" hreflang="ka-GE" href="${kaUrl}" />\n\t\t<link rel="alternate" hreflang="en-US" href="${enUrl}" />\n\t\t<link rel="alternate" hreflang="ka" href="${kaUrl}" />\n\t\t<link rel="alternate" hreflang="en" href="${enUrl}" />`;
+            html = html.replace('<!-- HREFLANG_PLACEHOLDER -->', hreflangTags);
+            
             const locale = route.lang === 'ka' ? 'ka_GE' : 'en_US';
             html = html.replace('<meta property="og:locale" content="" />', `<meta property="og:locale" content="${locale}" />`);
             
             const siteName = route.lang === 'ka' ? 'HVAC Elite - კონდიციონერის ხელოსანი' : 'HVAC Elite - Troubleshooter';
             html = html.replace('<meta property="og:site_name" content="" />', `<meta property="og:site_name" content="${siteName}" />\n    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; style-src 'self' 'unsafe-inline' https:; font-src 'self' data: https:; connect-src 'self' https:;">\n    <meta name="referrer" content="strict-origin-when-cross-origin">`);
             
-            const urlStr = `https://hvacelite.ge${route.url === '/' ? '' : route.url + '/'}`;
+            const urlStr = route.url === '/' ? 'https://hvacelite.ge/' : `https://hvacelite.ge${route.url}`;
             html = html.replace('<link rel="canonical" href="" />', `<link rel="canonical" href="${urlStr}" />`);
             html = html.replace('<meta property="og:url" content="" />', `<meta property="og:url" content="${urlStr}" />`);
             

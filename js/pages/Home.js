@@ -1,16 +1,16 @@
-export default function Home(t) {
+export default function Home(t, lang) {
 	const homeSchema = {
 		'@context': 'https://schema.org',
 		'@type': 'LocalBusiness',
 		name: 'HVAC Elite',
-		url: 'https://hvacelite.ge/',
+		url: `https://hvacelite.ge/${lang}`,
 		telephone: '+995514128821',
 		image: 'https://hvacelite.ge/images/logo_hvac_elite.svg',
 		priceRange: '100₾-5000₾',
 		areaServed: 'Tbilisi, Georgia',
 		address: {
 			'@type': 'PostalAddress',
-			streetAddress: 'Bakhtrioni St.',
+			streetAddress: 'Tbilisi, Saburtalo',
 			addressLocality: 'Tbilisi',
 			postalCode: '0160',
 			addressCountry: 'GE',

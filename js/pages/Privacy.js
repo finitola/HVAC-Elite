@@ -1,16 +1,16 @@
-export default function Privacy(t) {
+export default function Privacy(t, lang) {
 	const privacySchema = {
 		'@context': 'https://schema.org',
 		'@type': 'LocalBusiness',
 		name: 'Privacy - HVAC Elite',
-		url: 'https://hvacelite.ge/privacy',
+		url: `https://hvacelite.ge/${lang}/privacy`,
 		telephone: '+995514128821',
 		image: 'https://hvacelite.ge/images/logo_hvac_elite.svg',
 		priceRange: '100₾-5000₾',
 		areaServed: 'Tbilisi, Georgia',
 		address: {
 			'@type': 'PostalAddress',
-			streetAddress: 'Bakhtrioni St.',
+			streetAddress: 'Tbilisi, Saburtalo',
 			addressLocality: 'Tbilisi',
 			postalCode: '0160',
 			addressCountry: 'GE',

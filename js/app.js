@@ -60,7 +60,11 @@ const renderApp = async () => {
 		.querySelector('meta[property="og:site_name"]')
 		?.setAttribute('content', currentSiteName)
 
-	const canonicalUrl = window.location.origin + window.location.pathname
+	let canonicalPath = window.location.pathname
+	if (canonicalPath.length > 1 && canonicalPath.endsWith('/')) {
+		canonicalPath = canonicalPath.slice(0, -1)
+	}
+	const canonicalUrl = window.location.origin + canonicalPath
 	document
 		.querySelector('link[rel="canonical"]')
 		?.setAttribute('href', canonicalUrl)

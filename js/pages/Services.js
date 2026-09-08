@@ -1,4 +1,4 @@
-export default function Services(t) {
+export default function Services(t, lang) {
 	const servicesSchema = {
 		'@context': 'https://schema.org',
 		'@type': 'Service',
@@ -6,10 +6,12 @@ export default function Services(t) {
 		provider: {
 			'@type': 'LocalBusiness',
 			name: 'HVAC Elite',
+			url: `https://hvacelite.ge/${lang}/services`,
 			image: 'https://hvacelite.ge/images/logo_hvac_elite.svg',
 			telephone: '+995514128821',
 			address: {
 				'@type': 'PostalAddress',
+				streetAddress: 'Tbilisi, Saburtalo',
 				addressLocality: 'Tbilisi',
 				addressCountry: 'GE',
 			},
