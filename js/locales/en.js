@@ -174,7 +174,7 @@ export default {
 	// Home Page
 	home_title: 'HVAC Elite - Air Conditioner Technician',
 	home_desc:
-		'514 128 821 - Air conditioner installation/dismantling, repair/diagnostics, pre-installation of pipes in the wall',
+		'514 128 821 - Air conditioner installation/dismantling, repair/diagnostics, cleaning, pre-installation of pipes in the wall',
 	// Services Page
 	services_title: 'Services | Air Conditioner Technician - HVAC Elite',
 	services_desc: 'Use our services and get a better experience',
