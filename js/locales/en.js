@@ -29,15 +29,15 @@ export default {
 		'Our team consists of certified technicians who stand out for their high professionalism.',
 
 	// Home Page
-	home_h1: 'Air Conditioning Systems Maintenance',
+	home_h1: 'Air Conditioning Technician',
 	home_p:
-    'For any air conditioning technical issue, call a professional air conditioner technician',
+    'Technical Maintenance of Air Conditioning (HVAC) Systems',
 	home_stat_text1: 'Air Conditioner Installation',
 	home_stat_text2: 'Air Conditioner Repair',
 	home_stat_text3: 'Satisfied Customers',
 	board_title: 'Technical service for any model of air conditioning systems',
 	board_description:
-		'Our team offers maintenance for various models of split, multi-split, VRV/VRF, and cascade systems.',
+		'Our team offers services for various models of split, multi-split, VRV/VRF, and cascade systems (chillers, AHUs, rooftop units).',
 	service_cards_title: 'What services do we offer?',
 	service_card1: 'Consultation',
 	service_card2: 'Installation',
