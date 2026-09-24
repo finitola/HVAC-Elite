@@ -114,7 +114,8 @@ export default function Contact(t, lang) {
 		</div>
 	</div>
 	<div class="contact-column">
-		<img src="/images/Tbilisi-Map.webp" alt="${t.map_alt}" loading="lazy" width="837" height="579" />
+
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48713844.97633102!2d-21.35076515!3d41.82276079999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x271e44961e09d2f%3A0xfef0d7ed5836bfba!2z4YOZ4YOd4YOc4YOT4YOY4YOq4YOY4YOd4YOc4YOU4YOg4YOY4YOhIOGDruGDlOGDmuGDneGDoeGDkOGDnOGDmCAtIEhWQUMgRWxpdGU!5e0!3m2!1ska!2sge!4v1790251143518!5m2!1ska!2sge" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 	</div>
 </section>
 `,
