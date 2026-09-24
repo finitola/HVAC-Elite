@@ -8,17 +8,19 @@
   "entries": [
     {
       "identifier": "urn:air:hvacelite.ge:website:hvac-elite",
-      "displayName": "HVAC Elite Website Knowledge",
+      "displayName": "HVAC Elite — კონდიციონერის ხელოსანი",
       "type": "text/markdown; profile=\"urn:air:agent-skills\"",
       "url": "https://hvacelite.ge/llms.txt",
-      "description": "Machine-readable information about HVAC Elite services, website pages and professional HVAC services in Tbilisi, Georgia.",
+      "description": "კონდიციონერის ხელოსანი თბილისში - კონდიციონერის მონტაჟი, დემონტაჟი, შეკეთება, დიაგნოსტიკა, ფრეონის დამატება, გარეცხვა, მილების წინასწარი დამონტაჟება",
       "tags": [
+        "კონდიციონერი",
+        "გათბობა",
+        "ვენტილაცია",
         "HVAC",
-        "air conditioning",
-        "heating",
-        "ventilation",
-        "Tbilisi",
-        "Georgia"
+        "კონდიციონერის ხელოსანი",
+        "კონდიციონერის შეკეთება",
+        "თბილისი",
+        "საქართველო"
       ],
       "capabilities": [
         "HVACServiceInformation",
@@ -27,8 +29,10 @@
         "HVACMaintenance"
       ],
       "representativeQueries": [
-        "What HVAC services does HVAC Elite provide in Tbilisi?",
-        "How can I contact HVAC Elite for air conditioner repair or installation?"
+        "რა მომსახურებებს გთავაზობთ HVAC Elite?",
+        "როგორ გამოვიძახო კონდიციონერის ხელოსანი ?",
+        "როგორ მივიღო კონდიციონერის პროფესიონალური მონტაჟი ?",
+        "როგორ დავუკავშირდე HVAC Elite-ს?"
       ],
       "version": "1.0"
     }
