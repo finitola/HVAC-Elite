@@ -1,5 +1,4 @@
 {
-  "$schema": "https://raw.githubusercontent.com/ards-project/ard-spec/main/spec/schemas/ai-catalog.schema.json",
   "specVersion": "1.0",
   "host": {
     "displayName": "HVAC Elite",
@@ -10,11 +9,23 @@
     {
       "identifier": "urn:air:hvacelite.ge:website:hvac-elite",
       "displayName": "HVAC Elite Website Knowledge",
-      "type": "application/ai-skill+md",
+      "type": "text/markdown; profile=\"urn:air:agent-skills\"",
       "url": "https://hvacelite.ge/llms.txt",
       "description": "Machine-readable information about HVAC Elite services, website pages and professional HVAC services in Tbilisi, Georgia.",
-      "tags": ["HVAC", "air conditioning", "heating", "ventilation", "Tbilisi", "Georgia"],
-      "capabilities": ["HVACServiceInformation", "AirConditionerInstallation", "AirConditionerRepair", "HVACMaintenance"],
+      "tags": [
+        "HVAC",
+        "air conditioning",
+        "heating",
+        "ventilation",
+        "Tbilisi",
+        "Georgia"
+      ],
+      "capabilities": [
+        "HVACServiceInformation",
+        "AirConditionerInstallation",
+        "AirConditionerRepair",
+        "HVACMaintenance"
+      ],
       "representativeQueries": [
         "What HVAC services does HVAC Elite provide in Tbilisi?",
         "How can I contact HVAC Elite for air conditioner repair or installation?"
