@@ -199,10 +199,6 @@ export default function Footer(t, currentLang) {
 
 	<div class="footer-bottom">
 		<a href="/">&copy; ${currentYear} ${t.footer_text}</a>
-		<br>
-		<a href="https://statcounter.com/p13356622/?guest=1">Statcounter</a>
-		<br>
-		<div id="top-ge-counter-container" data-site-id="118979"></div>
 	</div>
 </footer>
 <!-- Float Button Up -->
