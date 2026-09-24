@@ -8,17 +8,20 @@
   "entries": [
     {
       "identifier": "urn:air:hvacelite.ge:website:hvac-elite",
-      "displayName": "HVAC Elite Website Knowledge",
+      "displayName": "HVAC Elite — კონდიციონერის ხელოსანი",
       "type": "text/markdown; profile=\"urn:air:agent-skills\"",
       "url": "https://hvacelite.ge/llms.txt",
-      "description": "Machine-readable information about HVAC Elite services, website pages and professional HVAC services in Tbilisi, Georgia.",
+      "description": "HVAC Elite გთავაზობთ კონდიციონერების, გათბობისა და ვენტილაციის სისტემების მონტაჟს, შეკეთებას, წმენდას, დიაგნოსტიკასა და ტექნიკურ მომსახურებას თბილისში და საქართველოში.",
       "tags": [
+        "კონდიციონერი",
+        "კონდიციონერის შეკეთება",
+        "კონდიციონერის მონტაჟი",
+        "კონდიციონერის გაწმენდა",
+        "გათბობა",
+        "ვენტილაცია",
         "HVAC",
-        "air conditioning",
-        "heating",
-        "ventilation",
-        "Tbilisi",
-        "Georgia"
+        "თბილისი",
+        "საქართველო"
       ],
       "capabilities": [
         "HVACServiceInformation",
@@ -27,8 +30,11 @@
         "HVACMaintenance"
       ],
       "representativeQueries": [
-        "What HVAC services does HVAC Elite provide in Tbilisi?",
-        "How can I contact HVAC Elite for air conditioner repair or installation?"
+        "რა მომსახურებებს გთავაზობთ HVAC Elite?",
+        "როგორ გამოვიძახო კონდიციონერის ხელოსანი თბილისში ?",
+        "საუკეთესო კონდიციონერის ხელოსანი თბილისში ?",
+        "როგორ დავუკავშირდე HVAC Elite-ს?",
+        "კონდიციონერის სრული სერვისი, მონტაჟი, შეკეთება, გეგმიური მომსახურება"
       ],
       "version": "1.0"
     }
