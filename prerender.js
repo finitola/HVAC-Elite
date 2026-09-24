@@ -85,9 +85,24 @@ async function build() {
             
             // Hreflang Tags
             const cleanPathStr = route.cleanPath === '/' ? '' : route.cleanPath;
-            const kaUrl = `https://hvacelite.ge/ka${cleanPathStr}`;
-            const enUrl = `https://hvacelite.ge/en${cleanPathStr}`;
-            const hreflangTags = `<link rel="alternate" hreflang="ka" href="${kaUrl}" />\n\t\t<link rel="alternate" hreflang="en" href="${enUrl}" />`;
+            
+            const kaUrl = route.url === '/'
+                ? 'https://hvacelite.ge/'
+                : `https://hvacelite.ge/ka${cleanPathStr}`;
+            
+            const enUrl = route.cleanPath === '/'
+                ? 'https://hvacelite.ge/en'
+                : `https://hvacelite.ge/en${cleanPathStr}`;
+
+            const xDefaultUrl = route.cleanPath === '/'
+                ? 'https://hvacelite.ge/'
+                : kaUrl;
+
+            const hreflangTags = `
+                <link rel="alternate" hreflang="ka" href="${kaUrl}" />
+                <link rel="alternate" hreflang="en" href="${enUrl}" />
+                <link rel="alternate" hreflang="x-default" href="${xDefaultUrl}" />`;
+
             html = html.replace('<!-- HREFLANG_PLACEHOLDER -->', hreflangTags);
             
             const locale = route.lang === 'ka' ? 'ka_GE' : 'en_US';
