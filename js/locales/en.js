@@ -20,7 +20,7 @@ export default {
 	nav_footer: 'Footer Navigation',
 	footer_text: 'HVACElite.GE | All Rights Reserved',
 	footer_contact: 'Contact',
-	footer_address: 'Tbilisi, Saburtalo',
+	footer_address: 'Tbilisi, Vazha-Phshavela Ave. 78a, 0186 ',
 	footer_phone: '+995 514 128 821',
 	footer_email: 'Email Us',
 	footer_time: 'Open 24/7',
