@@ -19,7 +19,7 @@ export default {
 	nav_footer: 'ფუტერის ნავიგაცია',
 	footer_text: 'HVACElite.GE | ყველა უფლება დაცულია',
 	footer_contact: 'კონტაქტი',
-	footer_address: 'თბილისი, საბურთალო',
+	footer_address: 'თბილისი, ვაჟა-ფშაველას 78ა, 0186',
 	footer_phone: '+995 514 128 821',
 	footer_email: 'იმეილზე მიწერა',
 	footer_time: '24/7 - ღიაა',
