@@ -8,7 +8,7 @@
 
 - **Custom Vanilla JS SPA:** Built entirely without heavy frameworks (No React/Vue) for lightning-fast performance.
 - **Client-Side Routing:** Seamless page transitions using the History API.
-- **Bilingual Support (KA / EN):** Dynamic language switching with URL synchronization (e.g., `/ka/blog` vs `/en/blog`).
+- **Bilingual Support (KA / EN):** Dynamic language switching with URL synchronization (e.g., `/services` vs `/en/services`).
 - **Dynamic SEO & Schema Markup:** Automatically injects Meta tags, OpenGraph, Twitter Cards, and JSON-LD schema (LocalBusiness, Article, FAQPage, Service) for optimal search engine visibility.
 - **Responsive Design:** Custom CSS architecture using modern variables and design tokens, fully responsive across all devices.
 - **Performance Optimized:** Uses WebP images, Intersection Observers for scroll animations, and minimal DOM repaints.
@@ -30,8 +30,8 @@
     ├── router.js      # URL routing logic
     ├── store.js       # Global state management (Language, Path)
     ├── components/    # Reusable UI components (Header, Footer)
-    ├── pages/         # Page templates (Home, Services, Blog, etc.)
-    ├── blogposts/     # Individual blog post modules
+    ├── pages/         # Page templates (Home, Services, services, etc.)
+    ├── servicesposts/     # Individual services post modules
     └── locales/       # Translation files (ka.js, en.js)
 ```
 

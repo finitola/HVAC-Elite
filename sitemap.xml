@@ -3,15 +3,15 @@
   
   <!-- მთავარი გვერდი -->
   <url>
-    <loc>https://hvacelite.ge/ka</loc>
+    <loc>https://hvacelite.ge/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://hvacelite.ge/en" />
-    <xhtml:link rel="alternate" hreflang="ka" href="https://hvacelite.ge/ka" />
+    <xhtml:link rel="alternate" hreflang="ka" href="https://hvacelite.ge/" />
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://hvacelite.ge/en</loc>
-    <xhtml:link rel="alternate" hreflang="ka" href="https://hvacelite.ge/ka" />
+    <xhtml:link rel="alternate" hreflang="ka" href="https://hvacelite.ge/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://hvacelite.ge/en" />
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -19,65 +19,29 @@
 
   <!-- სერვისები -->
   <url>
-    <loc>https://hvacelite.ge/ka/services</loc>
+    <loc>https://hvacelite.ge/services</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://hvacelite.ge/en/services" />
-    <xhtml:link rel="alternate" hreflang="ka" href="https://hvacelite.ge/ka/services" />
+    <xhtml:link rel="alternate" hreflang="ka" href="https://hvacelite.ge/services" />
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <!-- ბლოგი (მთავარი) -->
-  <url>
-    <loc>https://hvacelite.ge/ka/blog</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://hvacelite.ge/en/blog" />
-    <xhtml:link rel="alternate" hreflang="ka" href="https://hvacelite.ge/ka/blog" />
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
   <!-- კონტაქტი -->
   <url>
-    <loc>https://hvacelite.ge/ka/contact</loc>
+    <loc>https://hvacelite.ge/contact</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://hvacelite.ge/en/contact" />
-    <xhtml:link rel="alternate" hreflang="ka" href="https://hvacelite.ge/ka/contact" />
+    <xhtml:link rel="alternate" hreflang="ka" href="https://hvacelite.ge/contact" />
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- ჩვენს შესახებ -->
   <url>
-    <loc>https://hvacelite.ge/ka/about</loc>
+    <loc>https://hvacelite.ge/about</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://hvacelite.ge/en/about" />
-    <xhtml:link rel="alternate" hreflang="ka" href="https://hvacelite.ge/ka/about" />
+    <xhtml:link rel="alternate" hreflang="ka" href="https://hvacelite.ge/about" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-  </url>
-
-  <!-- ბლოგ პოსტი 1: რა არის მაცივარაგენტი -->
-  <url>
-    <loc>https://hvacelite.ge/ka/blog/ra-aris-macivaragenti</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://hvacelite.ge/en/blog/ra-aris-macivaragenti" />
-    <xhtml:link rel="alternate" hreflang="ka" href="https://hvacelite.ge/ka/blog/ra-aris-macivaragenti" />
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- ბლოგ პოსტი 2: რას მოიცავს HVAC ინჟინერია -->
-  <url>
-    <loc>https://hvacelite.ge/ka/blog/ras-moicavs-hvac-injineria</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://hvacelite.ge/en/blog/ras-moicavs-hvac-injineria" />
-    <xhtml:link rel="alternate" hreflang="ka" href="https://hvacelite.ge/ka/blog/ras-moicavs-hvac-injineria" />
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- ბლოგ პოსტი 3: ინვერტორული vs On/Off -->
-  <url>
-    <loc>https://hvacelite.ge/ka/blog/inverteruli-teqnologia-vs-on-off</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://hvacelite.ge/en/blog/inverteruli-teqnologia-vs-on-off" />
-    <xhtml:link rel="alternate" hreflang="ka" href="https://hvacelite.ge/ka/blog/inverteruli-teqnologia-vs-on-off" />
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
 
 </urlset>

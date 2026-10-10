@@ -4,7 +4,6 @@ import { fileURLToPath } from 'url';
 import { matchRoute } from './js/router.js';
 import ka from './js/locales/ka.js';
 import en from './js/locales/en.js';
-import { allPosts } from './js/blogposts/index.js';
 import Header from './js/components/Header.js';
 import Footer from './js/components/Footer.js';
 
@@ -15,27 +14,18 @@ const distDir = path.join(__dirname, 'dist');
 // Define static routes
 const routes = [
     { url: '/', lang: 'ka', cleanPath: '/' },
-    { url: '/ka', lang: 'ka', cleanPath: '/' },
     { url: '/en', lang: 'en', cleanPath: '/' },
-    { url: '/ka/services', lang: 'ka', cleanPath: '/services' },
+    { url: '/services', lang: 'ka', cleanPath: '/services' },
     { url: '/en/services', lang: 'en', cleanPath: '/services' },
-    { url: '/ka/blog', lang: 'ka', cleanPath: '/blog' },
-    { url: '/en/blog', lang: 'en', cleanPath: '/blog' },
-    { url: '/ka/about', lang: 'ka', cleanPath: '/about' },
+    { url: '/about', lang: 'ka', cleanPath: '/about' },
     { url: '/en/about', lang: 'en', cleanPath: '/about' },
-    { url: '/ka/contact', lang: 'ka', cleanPath: '/contact' },
+    { url: '/contact', lang: 'ka', cleanPath: '/contact' },
     { url: '/en/contact', lang: 'en', cleanPath: '/contact' },
-    { url: '/ka/terms', lang: 'ka', cleanPath: '/terms' },
+    { url: '/terms', lang: 'ka', cleanPath: '/terms' },
     { url: '/en/terms', lang: 'en', cleanPath: '/terms' },
-    { url: '/ka/privacy', lang: 'ka', cleanPath: '/privacy' },
+    { url: '/privacy', lang: 'ka', cleanPath: '/privacy' },
     { url: '/en/privacy', lang: 'en', cleanPath: '/privacy' },
 ];
-
-// Add blog posts dynamically
-allPosts.forEach(post => {
-    routes.push({ url: `/ka/blog/${post.meta.slug}`, lang: 'ka', cleanPath: `/blog/${post.meta.slug}` });
-    routes.push({ url: `/en/blog/${post.meta.slug}`, lang: 'en', cleanPath: `/blog/${post.meta.slug}` });
-});
 
 async function build() {
     console.log('Generating static HTML files...');
@@ -46,7 +36,7 @@ async function build() {
     }
     
     // Copy static assets
-    const assets = ['css', 'js', 'images', 'robots.txt', 'llms.txt', 'sitemap.xml', 'rss.xml', '_headers', 'wrangler.jsonc', '.well-known'];
+    const assets = ['css', 'js', 'images', 'robots.txt', 'llms.txt', 'sitemap.xml', '_headers', '_redirects', 'wrangler.jsonc', '.well-known'];
     assets.forEach(asset => {
         const srcPath = path.join(__dirname, asset);
         const destPath = path.join(distDir, asset);
@@ -83,20 +73,12 @@ async function build() {
                 html = html.replace(/<meta\s+name="keywords"\s+content="[^"]*"\s*\/>/, `<meta name="keywords" content="${pageData.keywords}" />`);
             }
             
-            // Hreflang Tags
             const cleanPathStr = route.cleanPath === '/' ? '' : route.cleanPath;
             
-            const kaUrl = route.url === '/'
-                ? 'https://hvacelite.ge/'
-                : `https://hvacelite.ge/ka${cleanPathStr}`;
-            
-            const enUrl = route.cleanPath === '/'
-                ? 'https://hvacelite.ge/en'
-                : `https://hvacelite.ge/en${cleanPathStr}`;
+            const kaUrl = `https://hvacelite.ge${cleanPathStr || '/'}`;
+            const enUrl = `https://hvacelite.ge/en${cleanPathStr}`;
 
-            const xDefaultUrl = route.cleanPath === '/'
-                ? 'https://hvacelite.ge/'
-                : kaUrl;
+            const xDefaultUrl = kaUrl;
 
             const hreflangTags = `
                 <link rel="alternate" hreflang="ka" href="${kaUrl}" />
