@@ -1,0 +1,37 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "HVAC Elite",
+    "documentationUrl": "https://hvacelite.ge/",
+    "logoUrl": "https://hvacelite.ge/images/logo_hvac_elite.svg"
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:hvacelite.ge:website:hvac-elite",
+      "displayName": "HVAC Elite — კონდიციონერის ხელოსანი",
+      "type": "text/markdown",
+      "url": "https://hvacelite.ge/llms.txt",
+      "description": "HVAC Elite გთავაზობთ კონდიციონერების მონტაჟს, დემონტაჟს, შეკეთებას, დიაგნოსტიკას, წმენდას და ფრეონის დატუმბვას თბილისში.",
+      "tags": [
+        "კონდიციონერი",
+        "კონდიციონერის შეკეთება",
+        "კონდიციონერის მონტაჟი",
+        "HVAC",
+        "თბილისი",
+        "საქართველო"
+      ],
+      "capabilities": [
+        "HVACServiceInformation",
+        "AirConditionerInstallation",
+        "AirConditionerRepair",
+        "HVACMaintenance"
+      ],
+      "representativeQueries": [
+        "რა მომსახურებებს გთავაზობთ HVAC Elite?",
+        "როგორ გამოვიძახო კონდიციონერის ხელოსანი თბილისში?",
+        "როგორ დავუკავშირდე HVAC Elite-ს?"
+      ],
+      "version": "1.0"
+    }
+  ]
+}

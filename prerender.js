@@ -91,7 +91,7 @@ async function build() {
             html = html.replace('<meta property="og:locale" content="" />', `<meta property="og:locale" content="${locale}" />`);
             
             const siteName = route.lang === 'ka' ? 'HVAC Elite - კონდიციონერის ხელოსანი' : 'HVAC Elite - Troubleshooter';
-            html = html.replace('<meta property="og:site_name" content="" />', `<meta property="og:site_name" content="${siteName}" />\n    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; style-src 'self' 'unsafe-inline' https:; font-src 'self' data: https:; connect-src 'self' https:;">\n    <meta name="referrer" content="strict-origin-when-cross-origin">`);
+            html = html.replace('<meta property="og:site_name" content="" />', `<meta property="og:site_name" content="${siteName}" />\n    <meta name="referrer" content="strict-origin-when-cross-origin">`);
             
             const urlStr = route.url === '/' ? 'https://hvacelite.ge/' : `https://hvacelite.ge${route.url}`;
             html = html.replace('<link rel="canonical" href="" />', `<link rel="canonical" href="${urlStr}" />`);
